@@ -1,0 +1,106 @@
+body{
+    background: url("./background.jpg");
+    background-color: #000000;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.container{
+    position: absolute;
+    height: 30pc;
+    width: 25pc;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 55px black;
+}
+.addTxt{
+    position: absolute;
+    height: 10px;
+    width: 60%;
+    margin: auto;
+    top: 25px;
+    right: 0;
+    left: 0;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 18px;
+    padding-right: 50px;
+    background: rgba(223, 221, 217);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.addBtn{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    margin: auto;
+    top: 18px;
+    right: 58px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: 0;
+}
+.addBtn img{
+    position: absolute;
+    height: 32px;
+    margin: auto;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.list{
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.list::-webkit-scrollbar{
+    -webkit-appearance: none;
+    appearance: none;
+}
+.element{
+    position: relative;
+    height: fit-content;
+    width: 60%;
+    right: 0;
+    margin: 10px;
+    text-align: left;
+    transition: .2s;
+    padding: 10px;
+    background: rgba(255, 239, 189, 0.677);
+    cursor: pointer;
+    border-radius: 18px;
+    padding-right: 80px;
+    word-wrap: break-word;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.element:hover{
+    transform: scale(1.1);
+}
+.tick{
+    position: absolute;
+    margin: auto;
+    height: 25px;
+    top: 0;
+    bottom: 0;
+    right: 45px;
+}
+.dustbin{
+    position: absolute;
+    margin: auto;
+    height: 25px;
+    top: 0;
+    bottom: 0;
+    right: 12px;
+}
